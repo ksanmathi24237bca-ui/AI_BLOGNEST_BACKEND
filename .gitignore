@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains secrets)
+.env
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+
+# Uploaded user files (keep the folder, ignore its contents)
+uploads/*
+!uploads/.gitkeep
